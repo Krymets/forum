@@ -7,7 +7,7 @@ const Companies = () => {
             category: 'Виноробство',
             name: '«Ace&W by Stakhovsky»',
             address: 'Київ, Київська обл, Закарпатська обл.',
-            badges: ['15 років досвіду', 'Експорт', 'Мін. опт'],
+            badges: ['15 років досвіду', 'експорт', 'мін. опт'],
             logoSrc: '/companies-logos/1.png',
             photoSrc: '/companies-images/1.jpeg'
         },
@@ -15,7 +15,7 @@ const Companies = () => {
             category: 'Імпортер',
             name: 'Regno',
             address: 'Київ',
-            badges: ['13 років досвіду', 'Імпорт', 'Великий опт'],
+            badges: ['13 років досвіду', 'імпорт', 'великий опт'],
             logoSrc: '/companies-logos/2.png',
             photoSrc: '/companies-images/2.jpeg'
         },
@@ -23,7 +23,7 @@ const Companies = () => {
             category: 'Сироварня',
             name: 'Мукко',
             address: 'Львів, Львівська обл',
-            badges: ['5 років досвіду', 'Сімейне виробництво'],
+            badges: ['5 років досвіду', 'сімейне виробництво'],
             logoSrc: '/companies-logos/3.jpeg',
             photoSrc: '/companies-images/3.jpeg'
         },

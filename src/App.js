@@ -9,10 +9,10 @@ function App() {
       <header className="App-header">
         <AppMenu/>
         <AppBanner/>
-          <div className="App-body">
-              <Partners/>
-              <Companies/>
-          </div>
+        <div className="App-body">
+            <Partners/>
+            <Companies/>
+        </div>
       </header>
     </div>
   );

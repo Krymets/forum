@@ -12,13 +12,11 @@
     padding: 8px 104px;
     align-items: center;
     gap: 983px;
-    justify-content: flex-start;
 }
 .Frame24-m{
     display: flex;
     align-items: flex-start;
     gap: 16px;
-    justify-content: flex-start;
 }
 .Frame19-m,
 .Frame19-m-active {

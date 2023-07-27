@@ -28,6 +28,19 @@
     align-items: flex-start;
     gap: 12px;
 }
+.IconParkOutlineLeftC {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.Group {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
 
 .Frame18-2-p {
     display: flex;
@@ -36,6 +49,8 @@
     gap: 80px;
     background: #FFF;
 }
+
+
 .image-1 {
     width: 57.692px;
     height: 60px;
@@ -62,4 +77,21 @@
     width: 336.168px;
     height: 206.037px;
     flex-shrink: 0;
+}
+.image-1,
+.image-5,
+.image-2,
+.image-3,
+.image-4,
+.image-6 {
+    transition: transform 0.2s ease; /* Add a transition for a smooth effect */
+}
+
+.image-1:hover,
+.image-5:hover,
+.image-2:hover,
+.image-3:hover,
+.image-4:hover,
+.image-6:hover {
+    transform: scale(1.1); /* Increase the scale on hover */
 }
