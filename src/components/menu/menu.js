@@ -19,7 +19,7 @@ class AppMenu extends Component {
     renderMenuItem = (text, index) => {
         const { activeIndex } = this.state;
         const isActive = activeIndex === index;
-        const classNames = `Frame19${isActive ? '-active' : ''}`;
+        const classNames = `Frame19-m${isActive ? '-active' : ''}`;
         const textNames = `menu-text${isActive ? '-active' : ''}`;
 
         return (
@@ -42,9 +42,9 @@ class AppMenu extends Component {
 
         return (
             <div>
-                <div className="Frame18">
-                    <div className="Frame3">
-                        <div className="Frame24">{menuItems.map(this.renderMenuItem)}</div>
+                <div className="Frame18-m">
+                    <div className="Frame3-m">
+                        <div className="Frame24-m">{menuItems.map(this.renderMenuItem)}</div>
                     </div>
                 </div>
                 <MenuDivider />
