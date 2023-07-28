@@ -1,0 +1,119 @@
+.Frame17-a {
+    display: flex;
+    padding: 80px 104px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    background: #FFF;
+}
+.Frame48-a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+}
+.about-header-text {
+    width: 971px;
+    color: #292E32;
+    font-family: Inter, serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.about-text {
+    width: 971px;
+    height: 62px;
+    color: #292E32;
+    font-feature-settings: 'calt' off;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.16px;
+}
+
+.Frame17-2-a {
+    display: flex;
+    width: 1304px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 36px;
+}
+.about-text-paragraphs-one {
+    width: 466px;
+    flex-shrink: 0;
+    color: #292E32;
+    font-feature-settings: 'calt' off;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: -0.16px;
+}
+.about-text-paragraphs-two {
+    width: 489px;
+    flex-shrink: 0;
+    color: #292E32;
+    font-feature-settings: 'calt' off;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: -0.16px;
+}
+
+.Group83-a {
+    width: 353px;
+    height: 266px;
+    position: relative;
+    left: -6px;
+    bottom: 20px;
+}
+.Frame41-a {
+    width: 179px;
+    height: 150px;
+    left: 174px;
+    top: 116px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.Frame41-2-a {
+    width: 179px;
+    height: 150px;
+    left: 0;
+    top: 116px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.Frame41-3-a {
+    width: 179px;
+    height: 150px;
+    left: 174px;
+    top: 0;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.Frame41-4-a {
+    width: 179px;
+    height: 150px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}

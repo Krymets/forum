@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="back">
         <div className="App">
-          <header className="App-header">
+          <div className="App-header">
             <AppMenu/>
             <AppBanner/>
             <div className="App-body">
@@ -16,7 +16,7 @@ function App() {
                 <Companies/>
                 <About/>
             </div>
-          </header>
+          </div>
         </div>
     </div>
   );

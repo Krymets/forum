@@ -50,7 +50,6 @@
 .Frame54-a {
     width: 54px;
     height: 50px;
-    /*position: absolute;*/
     position: relative;
     right: 0;
 }
@@ -83,6 +82,7 @@
     font-weight: 600;
     line-height: 20px; /* 125% */
     letter-spacing: -0.16px;
+    position: absolute;
 }
 
 .Card1-text {
@@ -96,6 +96,8 @@
     font-weight: 400;
     line-height: 20px; /* 125% */
     letter-spacing: -0.16px;
+    position: relative;
+    top: -20px;
 }
 .Card2 {
     display: flex;

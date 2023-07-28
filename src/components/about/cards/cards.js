@@ -19,20 +19,20 @@ const AppCards = () => {
             <div className="Frame50-a">
               <div className="Frame54-a">
                 <img className="Intersect" src="/svg/intersect.svg" alt=""/>
-                <img className="Expert" src="/svg/contacts.svg" alt=""/>
+                <img className="Expert" src="/svg/info.svg" alt=""/>
               </div>
-              <div className="Card1-text-header">НОВІ КОНТАКТИ</div>
-              <div className="Card1-text">Нові ділові контакти та переговори презентація Вашого бренду, компанії, рішень і послуг.</div>
+              <div className="Card1-text-header">ПРАКТИЧНІСТЬ</div>
+              <div className="Card1-text">Практична інформація від представників галузей.</div>
             </div>
           </div>
           <div className="Card2">
             <div className="Frame50-a">
               <div className="Frame54-a">
                 <img className="Intersect" src="/svg/intersect.svg" alt=""/>
-                <img className="Expert" src="/svg/info.svg" alt=""/>
+                <img className="Expert" src="/svg/contacts.svg" alt=""/>
               </div>
-              <div className="Card1-text-header">ПРАКТИЧНІСТЬ</div>
-              <div className="Card1-text">Практична інформація від представників галузей.</div>
+              <div className="Card1-text-header">НОВІ КОНТАКТИ</div>
+              <div className="Card1-text">Нові ділові контакти та переговори презентація Вашого бренду, компанії, рішень і послуг.</div>
             </div>
           </div>
           <div className="Card2">
