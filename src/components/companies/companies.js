@@ -42,7 +42,7 @@ const Companies = () => {
             name: 'МХП',
             address: 'Київ, Київська обл',
             badges: ['15 років досвіду'],
-            logoSrc: '/companies-logos/55.jpeg',
+            logoSrc: '/companies-logos/5.jpeg',
             photoSrc: '/companies-images/5.jpeg'
         },
                 {

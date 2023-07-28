@@ -1,4 +1,5 @@
 .Frame18-p {
+    width: 1304px;
     display: flex;
     padding: 80px 104px;
     flex-direction: column;
@@ -46,7 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 50px;
     background: #FFF;
 }
 
@@ -84,7 +85,7 @@
 .image-3,
 .image-4,
 .image-6 {
-    transition: transform 0.2s ease; /* Add a transition for a smooth effect */
+    transition: transform 0.2s ease;
 }
 
 .image-1:hover,
@@ -93,5 +94,5 @@
 .image-3:hover,
 .image-4:hover,
 .image-6:hover {
-    transform: scale(1.1); /* Increase the scale on hover */
+    transform: scale(1.1);
 }
