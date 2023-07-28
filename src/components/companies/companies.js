@@ -24,7 +24,7 @@ const Companies = () => {
             name: 'Мукко',
             address: 'Львів, Львівська обл',
             badges: ['5 років досвіду', 'сімейне виробництво'],
-            logoSrc: '/companies-logos/3.jpeg',
+            logoSrc: '/companies-logos/33.jpeg',
             photoSrc: '/companies-images/3.jpeg'
         },
     ];
@@ -34,7 +34,7 @@ const Companies = () => {
             name: 'АСОЦІАЦІЯ РІТЕЙЛЕРІВ УКРАЇНИ',
             address: 'Київ, Київська обл, Закарпатська обл.',
             badges: ['15 років досвіду'],
-            logoSrc: '/companies-logos/4.jpeg',
+            logoSrc: '/companies-logos/44.jpeg',
             photoSrc: '/companies-images/4.jpeg'
         },
         {
@@ -42,7 +42,7 @@ const Companies = () => {
             name: 'МХП',
             address: 'Київ, Київська обл',
             badges: ['15 років досвіду'],
-            logoSrc: '/companies-logos/5.jpeg',
+            logoSrc: '/companies-logos/55.jpeg',
             photoSrc: '/companies-images/5.jpeg'
         },
                 {
@@ -50,7 +50,7 @@ const Companies = () => {
             name: 'Сільпо',
             address: 'Київ, Київська обл',
             badges: ['9 років досвіду'],
-            logoSrc: '/companies-logos/6.png',
+            logoSrc: '/companies-logos/66.png',
             photoSrc: '/companies-images/6.jpeg'
         },
     ];

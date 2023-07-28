@@ -5,7 +5,9 @@
     box-shadow: 0 4px 8px 0 rgba(65, 64, 69, 0.20);
     border-radius: 11px;
     transition: transform 0.2s ease;
+    position: relative;
 }
+
 
 .ProducentCard:hover {
     transform: scale(1.1);
@@ -119,17 +121,28 @@
     position: absolute;
     right: 16px;
     bottom: 159.5px;
-    box-shadow: 0 0 2px 0 rgba(65, 64, 69, 0.20);
+
 }
+
 .CardLogo-Ellipse {
     width: 64px;
     height: 64px;
     flex-shrink: 0;
-    fill: #FFF;
+    background: #fff;
+    left: 0;
+    top: 0;
+    border-radius: 9999px;
+    box-shadow: 0 0 2px rgba(65, 64, 69, 0.20);
 }
+
+
 .CardLogo-image {
     width: 54px;
     height: 54px;
     flex-shrink: 0;
     border-radius: 26px;
+    background: #fff;
+    left: 5px;
+    top: 5px;
+    position: absolute;
 }

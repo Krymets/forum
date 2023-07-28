@@ -7,8 +7,8 @@ export const ProductCard = ({ data }) => {
         <div className="ProducentCard">
             <div className="Frame13-product-card">
                 <div className="CardPhoto">
-                    <div className="Rectangle3" />
-                    <img className="image-product-card" src={photoSrc} alt="" />
+                    <div className="Rectangle3"/>
+                    <img className="image-product-card" src={photoSrc} alt=""/>
                 </div>
                 <div className="Frame10-product-card">
                     <div className="Frame11-product-card">
@@ -28,8 +28,9 @@ export const ProductCard = ({ data }) => {
                 </div>
             </div>
             <div className="CardLogo">
-                <div className="CardLogo-Ellipse" />
-                <img className="CardLogo-image" src={logoSrc} alt="" />
+                <div className="CardLogo-Ellipse">
+                <img className="CardLogo-image" src={logoSrc} alt=""/>
+                </div>
             </div>
         </div>
     );
