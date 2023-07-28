@@ -1,6 +1,8 @@
+.back {
+  background-color: black;
+}
 .App {
   width: 1512px;
-  height: 3818px;
   border-radius: 8px;
   background: #FFF;
   margin-left: auto;
