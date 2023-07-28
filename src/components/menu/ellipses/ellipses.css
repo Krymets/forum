@@ -1,0 +1,17 @@
+.Ellipses {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+.Ellipse-green {
+    width: 5px;
+    height: 5px;
+    background: #1F9A7C;
+    border-radius: 9999px;
+}
+.Ellipse-white {
+    width: 5px;
+    height: 5px;
+    fill: #FFF;
+    border-radius: 9999px;
+}
