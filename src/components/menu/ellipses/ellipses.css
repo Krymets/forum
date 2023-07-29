@@ -12,6 +12,6 @@
 .Ellipse-white {
     width: 5px;
     height: 5px;
-    fill: #FFF;
+    background: #FFF;
     border-radius: 9999px;
 }

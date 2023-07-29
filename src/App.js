@@ -6,18 +6,17 @@ import Companies from "./components/companies/companies";
 import About from "./components/about/about";
 function App() {
   return (
-    <div className="back">
-        <div className="App">
-          <div className="App-header">
-            <AppMenu/>
-            <AppBanner/>
-            <div className="App-body">
-                <Partners/>
-                <Companies/>
-                <About/>
-            </div>
-          </div>
+    <div className="App">
+      <div className="App-header">
+        <AppMenu/>
+        <AppBanner/>
+        <div className="App-body">
+            <Partners/>
+            <Companies/>
+            {/*<Partners/>*/}
+            <About/>
         </div>
+      </div>
     </div>
   );
 }
