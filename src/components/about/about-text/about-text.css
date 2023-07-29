@@ -5,6 +5,7 @@
     align-items: flex-start;
     gap: 80px;
     background: #FFF;
+    overflow: hidden;
 }
 .Frame48-a {
     display: flex;
@@ -42,6 +43,7 @@
     gap: 36px;
 }
 .about-text-paragraphs-one {
+    align-self: flex-start;
     width: 466px;
     flex-shrink: 0;
     color: #292E32;
@@ -52,6 +54,7 @@
     font-weight: 600;
     line-height: 30px; /* 187.5% */
     letter-spacing: -0.16px;
+    content: "\2022";
 }
 .about-text-paragraphs-two {
     width: 489px;
@@ -65,13 +68,20 @@
     line-height: 30px; /* 187.5% */
     letter-spacing: -0.16px;
 }
+.about-text-paragraphs-one span::before,
+.about-text-paragraphs-two span::before {
+    content: "\2022";
+    margin-right: 8px;
+}
 
 .Group83-a {
     width: 353px;
-    height: 266px;
+    /*height: 266px;*/
     position: relative;
-    left: -6px;
-    bottom: 20px;
+    left: -110px;
+    bottom: 210px;
+    /*left: -6px;*/
+    /*bottom: 20px;*/
 }
 .Frame41-a {
     width: 179px;
