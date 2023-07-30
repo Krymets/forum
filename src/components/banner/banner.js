@@ -74,7 +74,7 @@ const AppBanner = () => {
                   <img src="/svg/delivery.svg" alt=""/>
                 </div>
               </div>
-              <div className="Frame36" style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+              <div className="Frame36-b">
                 <div className="banner-item-text">Доставка</div>
                 <div className="banner-item-counter">14+</div>
               </div>

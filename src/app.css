@@ -1,3 +1,6 @@
+.back {
+  background: gray;
+}
 .App {
   width: 1512px;
   border-radius: 8px;

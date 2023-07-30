@@ -28,3 +28,13 @@ export const WhiteEllipses = () => {
     </div>
   );
 }
+
+export const WhiteTripleEllipses = () => {
+  return (
+    <div className="Ellipses">
+      <div className="Ellipse-white"/>
+      <div className="Ellipse-white"/>
+      <div className="Ellipse-white"/>
+    </div>
+  );
+}
