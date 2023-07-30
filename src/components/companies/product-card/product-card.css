@@ -35,6 +35,7 @@
     height: 290px;
     flex-shrink: 0;
     border-radius: 11px;
+    object-fit: cover;
 }
 .Frame10-product-card {
     display: flex;
