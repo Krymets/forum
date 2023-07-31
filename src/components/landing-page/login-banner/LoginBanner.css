@@ -1,9 +1,9 @@
-.Group84-lb {
+.login-banner-group {
     width: 1512px;
     height: 270px;
     position: relative;
 }
-.Rectangle22-lb {
+.login-banner-group__rectangle {
     width: 1512px;
     height: 270px;
     flex-shrink: 0;
@@ -12,7 +12,7 @@
     top: 0;
     position: absolute;
 }
-.Frame104-lb {
+.login-banner-group__content {
     width: 1304px;
     height: 198px;
     flex-shrink: 0;
@@ -24,7 +24,7 @@
     position: absolute;
     overflow: hidden;
 }
-.Rectangle15-lb {
+.login-banner-group__content__rectangle {
     width: 954px;
     height: 198px;
     flex-shrink: 0;
@@ -34,7 +34,7 @@
     position: absolute;
     overflow: hidden;
 }
-.lb-img {
+.login-banner-group__image {
     width: 1800px;
     height: 1249px;
     flex-shrink: 0;
@@ -44,7 +44,7 @@
     position: relative;
     right: 400px;
 }
-.Rectangle16-lb {
+.login-banner-group__content__login-rectangle {
     width: 350px;
     height: 198px;
     flex-shrink: 0;
@@ -53,7 +53,7 @@
     top: 0;
     position: absolute;
 }
-.Frame41-lb {
+.login-banner-group__content__ellipses {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -62,7 +62,7 @@
     top: 60px;
     position: absolute;
 }
-.Frame106-lb {
+.login-banner-group__login-section-basic {
     width: 1160px;
     height: 38px;
     flex-shrink: 0;
@@ -70,7 +70,7 @@
     top: 80px;
     position: absolute;
 }
-.Frame40-lb {
+.login-banner-group__login-section {
     display: inline-flex;
     align-items: center;
     gap: 121px;
@@ -78,13 +78,13 @@
     top: 0;
     position: absolute;
 }
-.Frame105-lb {
+.login-banner-group__text-section {
     display: flex;
     align-items: center;
     gap: 10px;
     filter: blur(3px);
 }
-.login-banner-text {
+.login-banner-group__banner-text {
     color: #FFF;
     text-shadow: 0 6px 6px 0 rgba(72, 72, 72, 0.25);
     font-family: Inter, serif;
@@ -96,7 +96,7 @@
     top: 117px;
     position: absolute;
 }
-.login-banner-shadow-text {
+.login-banner-group__banner-shadow-text {
     color: #59636A;
     font-family: Inter, serif;
     font-size: 36px;
@@ -108,7 +108,7 @@
     position: absolute;
 }
 
-.Frame2-lb {
+.login-banner-group__login-buttons {
     display: flex;
     align-items: flex-start;
     gap: 12px;
@@ -116,7 +116,7 @@
     left: 900px;
     position: absolute;
 }
-.login-button-lb {
+.login-banner-group__login-button {
     display: flex;
     padding: 5px 15px;
     justify-content: center;
@@ -128,7 +128,7 @@
     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.04);
 }
 
-.login-button-text-lb {
+.login-banner-group__login-button-text {
     color: #FFF;
     text-align: center;
     font-feature-settings: 'calt' off;
@@ -140,7 +140,7 @@
     letter-spacing: -0.16px;
 }
 
-.register-button-lb {
+.login-banner-group__register-button {
     display: flex;
     padding: 5px 15px;
     justify-content: center;
@@ -152,7 +152,7 @@
     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.02);
 }
 
-.register-button-text-lb {
+.login-banner-group__register-button-text {
     color: #1F9A7C;
     text-align: center;
     font-feature-settings: 'calt' off;

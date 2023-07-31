@@ -2,14 +2,14 @@ import './Ellipses.css';
 
 export const GreenEllipses = () => {
   return (
-    <div className="Ellipses">
-      <div className="Ellipse-green"/>
-      <div className="Ellipse-green"/>
-      <div className="Ellipse-green"/>
-      <div className="Ellipse-green"/>
-      <div className="Ellipse-green"/>
-      <div className="Ellipse-green"/>
-      <div className="Ellipse-green"/>
+    <div className="ellipses-main">
+      <div className="ellipses-main__green"/>
+      <div className="ellipses-main__green"/>
+      <div className="ellipses-main__green"/>
+      <div className="ellipses-main__green"/>
+      <div className="ellipses-main__green"/>
+      <div className="ellipses-main__green"/>
+      <div className="ellipses-main__green"/>
     </div>
   );
 };
@@ -17,24 +17,24 @@ export const GreenEllipses = () => {
 
 export const WhiteEllipses = () => {
   return (
-    <div className="Ellipses">
-      <div className="Ellipse-white"/>
-      <div className="Ellipse-white"/>
-      <div className="Ellipse-white"/>
-      <div className="Ellipse-white"/>
-      <div className="Ellipse-white"/>
-      <div className="Ellipse-white"/>
-      <div className="Ellipse-white"/>
+    <div className="ellipses-main">
+      <div className="ellipses-main__white"/>
+      <div className="ellipses-main__white"/>
+      <div className="ellipses-main__white"/>
+      <div className="ellipses-main__white"/>
+      <div className="ellipses-main__white"/>
+      <div className="ellipses-main__white"/>
+      <div className="ellipses-main__white"/>
     </div>
   );
 }
 
 export const WhiteTripleEllipses = () => {
   return (
-    <div className="Ellipses">
-      <div className="Ellipse-white"/>
-      <div className="Ellipse-white"/>
-      <div className="Ellipse-white"/>
+    <div className="ellipses-main">
+      <div className="ellipses-main__white"/>
+      <div className="ellipses-main__white"/>
+      <div className="ellipses-main__white"/>
     </div>
   );
 }

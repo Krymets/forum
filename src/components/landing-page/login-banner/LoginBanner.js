@@ -4,13 +4,13 @@ import {WhiteTripleEllipses} from "../ellipses/Ellipses";
 
 const MainLoginBanner = () => {
     return (
-        <div className="Group84-lb">
-            <div className="Rectangle22-lb"/>
-            <div className="Frame104-lb">
-                <div className="Rectangle15-lb"/>
-                <img className="lb-img" src="/img/lb-img.jpeg" alt=""/>
-                <div className="Rectangle16-lb"/>
-                <div className="Frame41-lb">
+        <div className="login-banner-group">
+            <div className="login-banner-group__rectangle"/>
+            <div className="login-banner-group__content">
+                <div className="login-banner-group__content__rectangle"/>
+                <img className="login-banner-group__image" src="/img/lb-img.jpeg" alt=""/>
+                <div className="login-banner-group__content__login-rectangle"/>
+                <div className="login-banner-group__content__ellipses">
                     <WhiteTripleEllipses/>
                     <WhiteTripleEllipses/>
                     <WhiteTripleEllipses/>
@@ -18,22 +18,22 @@ const MainLoginBanner = () => {
                     <WhiteTripleEllipses/>
                     <WhiteTripleEllipses/>
                 </div>
-                <div className="Frame106-lb">
-                  <div className="Frame40-lb">
-                      <div className="Frame105-lb"/>
-                      <div className="Frame2-lb">
-                          <div className="login-button-lb">
-                              <div className="login-button-text-lb">Увійти</div>
+                <div className="login-banner-group__login-section-basic">
+                  <div className="login-banner-group__login-section">
+                      <div className="login-banner-group__text-section"/>
+                      <div className="login-banner-group__login-buttons">
+                          <div className="login-banner-group__login-button">
+                              <div className="login-banner-group__login-button-text">Увійти</div>
                           </div>
-                          <div className="register-button-lb">
-                              <div className="register-button-text-lb">Зареєстуватися</div>
+                          <div className="login-banner-group__register-button">
+                              <div className="login-banner-group__register-button-text">Зареєстуватися</div>
                           </div>
                       </div>
                   </div>
                 </div>
             </div>
-            <div className="login-banner-shadow-text">Майданчик для тих, хто втілює свої ідеї в життя.</div>
-            <div className="login-banner-text">Майданчик для тих, хто втілює свої ідеї в життя.</div>
+            <div className="login-banner-group__banner-shadow-text">Майданчик для тих, хто втілює свої ідеї в життя.</div>
+            <div className="login-banner-group__banner-text">Майданчик для тих, хто втілює свої ідеї в життя.</div>
         </div>
     )
 }

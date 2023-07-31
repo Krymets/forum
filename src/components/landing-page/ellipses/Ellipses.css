@@ -1,15 +1,15 @@
-.Ellipses {
+.ellipses-main {
     display: flex;
     align-items: flex-start;
     gap: 24px;
 }
-.Ellipse-green {
+.ellipses-main__green {
     width: 5px;
     height: 5px;
     background: #1F9A7C;
     border-radius: 9999px;
 }
-.Ellipse-white {
+.ellipses-main__white {
     width: 5px;
     height: 5px;
     background: #FFF;
