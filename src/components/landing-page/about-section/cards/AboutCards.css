@@ -1,4 +1,4 @@
-.Frame47-a {
+.about-us-cards-section {
     display: flex;
     width: 1304px;
     padding: 80px 104px;
@@ -8,7 +8,7 @@
     gap: 24px;
     background: #F0F1F3;
 }
-.about-text-why {
+.about-us-cards-section__header-text {
     color: #292E32;
     font-family: Inter, serif;
     font-size: 32px;
@@ -16,7 +16,7 @@
     font-weight: 700;
     line-height: 120%; /* 38.4px */
 }
-.Frame55-a {
+.about-us-cards-section__cards {
     display: flex;
     width: 884px;
     align-items: flex-start;
@@ -24,7 +24,7 @@
     gap: 24px;
     flex-wrap: wrap;
 }
-.Card1 {
+.about-us-cards-section__first-card {
     display: flex;
     width: 430px;
     height: 128px;
@@ -36,9 +36,7 @@
     border-radius: 9999px;
     transition: transform 0.2s ease;
 }
-.Frame50-a {
-    /*width: 398px;*/
-    /*height: 76px;*/
+.about-us-cards-section__cards-content {
     display: flex;
     padding: 36px 16px 16px 16px;
     flex-direction: column;
@@ -47,13 +45,13 @@
     border-radius: 12px;
     background: #FFF;
 }
-.Frame54-a {
+.about-us-cards-section__cards-logo {
     width: 54px;
     height: 50px;
     position: relative;
     right: 0;
 }
-.Intersect {
+.about-us-cards-section__cards-logo__intersect {
     width: 54px;
     height: 50px;
     flex-shrink: 0;
@@ -62,17 +60,15 @@
     right: -360px;
     top: -36.2px;
 }
-.Expert {
+.about-us-cards-section__cards-logo__expert {
     width: 24px;
     height: 24px;
     flex-shrink: 0;
-    /*left: 18px;*/
-    /*top: 8px;*/
     position: absolute;
     right: -350px;
     top: -28px;
 }
-.Card1-text-header {
+.about-us-cards-section__cards-content__text-header {
     align-self: stretch;
     color: #292E32;
     font-feature-settings: 'calt' off;
@@ -85,7 +81,7 @@
     position: absolute;
 }
 
-.Card1-text {
+.about-us-cards-section__cards-content__text {
     width: 398px;
     height: 40px;
     color: #292E32;
@@ -99,7 +95,7 @@
     position: relative;
     top: -20px;
 }
-.Card2 {
+.about-us-cards-section__next-card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -108,6 +104,6 @@
     box-shadow: 0 0 2px 0 rgba(65, 64, 69, 0.20);
     transition: transform 0.2s ease;
 }
-.Card2:hover, .Card1:hover {
+.about-us-cards-section__next-card:hover, .about-us-cards-section__first-card:hover {
     transform: scale(1.1);
 }

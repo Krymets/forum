@@ -1,18 +1,18 @@
 import './AboutText.css';
 import {GreenEllipses} from "../../ellipses/Ellipses";
 
-const AppTextAbout = () => {
+const AboutSectionText = () => {
     return (
-          <div className="Frame17-a">
-            <div className="Frame48-a">
-              <div className="about-header-text">ДЛЯ КОГО</div>
-              <div className="about-text">
+          <div className="about-us-text-section">
+            <div className="about-us-text-section__text-field">
+              <div className="about-us-text-section__header-text">ДЛЯ КОГО</div>
+              <div className="about-us-text-section__text">
                 Об’єднання представників найрізноманітніших галузей для пошуку інноваційних рішень проблемних питань,
                 <br/>перспектив співпраці з прогресивними учасниками еко середовища галузі, зокрема з технологічними парками,
                 <br/>з можливостями доступу до інвестиційних програм та інноваційних пропозицій.
                 <br/></div>
-              <div className="Frame17-2-a">
-                <div className="about-text-paragraphs-one">
+              <div className="about-us-text-section__paragraphs">
+                <div className="about-us-text-section__paragraph-one">
                   <span>виробників крафтової продукції у сфері виноробства,</span>
                   <br/>
                   <span>сироваріння, медоваріння тощо;</span>
@@ -23,7 +23,7 @@ const AppTextAbout = () => {
                   <br/>
                   <span>представників роздрібних та гуртових торгових мереж;</span>
                 </div>
-                <div className="about-text-paragraphs-two">
+                <div className="about-us-text-section__paragraph-two">
                   <span>представників пакувальної індустрії;</span>
                   <br/>
                   <span>представників логістичних компаній та служб доставки;</span>
@@ -36,8 +36,8 @@ const AppTextAbout = () => {
                 </div>
               </div>
             </div>
-            <div className="Group83-a">
-              <div className="Frame41-a">
+            <div className="about-us-text-section__ellipses-groups">
+              <div className="about-us-text-section__first_ellipses-group">
                 <GreenEllipses/>
                 <GreenEllipses/>
                 <GreenEllipses/>
@@ -45,7 +45,7 @@ const AppTextAbout = () => {
                 <GreenEllipses/>
                 <GreenEllipses/>
               </div>
-              <div className="Frame41-2-a">
+              <div className="about-us-text-section__second_ellipses-group">
                 <GreenEllipses/>
                 <GreenEllipses/>
                 <GreenEllipses/>
@@ -53,7 +53,7 @@ const AppTextAbout = () => {
                 <GreenEllipses/>
                 <GreenEllipses/>
               </div>
-              <div className="Frame41-3-a">
+              <div className="about-us-text-section__third_ellipses-group">
                 <GreenEllipses/>
                 <GreenEllipses/>
                 <GreenEllipses/>
@@ -61,7 +61,7 @@ const AppTextAbout = () => {
                 <GreenEllipses/>
                 <GreenEllipses/>
               </div>
-              <div className="Frame41-4-a">
+              <div className="about-us-text-section__fourse_ellipses-group">
                 <GreenEllipses/>
                 <GreenEllipses/>
                 <GreenEllipses/>
@@ -74,4 +74,4 @@ const AppTextAbout = () => {
     )
 }
 
-export default AppTextAbout;
+export default AboutSectionText;

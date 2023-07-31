@@ -1,4 +1,4 @@
-.Frame17-a {
+.about-us-text-section {
     display: flex;
     padding: 80px 104px;
     flex-direction: column;
@@ -7,13 +7,13 @@
     background: #FFF;
     overflow: hidden;
 }
-.Frame48-a {
+.about-us-text-section__text-field {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 24px;
 }
-.about-header-text {
+.about-us-text-section__header-text {
     width: 971px;
     color: #292E32;
     font-family: Inter, serif;
@@ -22,7 +22,7 @@
     font-weight: 700;
     line-height: 120%;
 }
-.about-text {
+.about-us-text-section__text {
     width: 971px;
     height: 62px;
     color: #292E32;
@@ -35,14 +35,14 @@
     letter-spacing: -0.16px;
 }
 
-.Frame17-2-a {
+.about-us-text-section__paragraphs {
     display: flex;
     width: 1304px;
     justify-content: flex-end;
     align-items: flex-start;
     gap: 36px;
 }
-.about-text-paragraphs-one {
+.about-us-text-section__paragraph-one {
     align-self: flex-start;
     width: 466px;
     flex-shrink: 0;
@@ -56,7 +56,7 @@
     letter-spacing: -0.16px;
     content: "\2022";
 }
-.about-text-paragraphs-two {
+.about-us-text-section__paragraph-two {
     width: 489px;
     flex-shrink: 0;
     color: #292E32;
@@ -68,22 +68,19 @@
     line-height: 30px; /* 187.5% */
     letter-spacing: -0.16px;
 }
-.about-text-paragraphs-one span::before,
-.about-text-paragraphs-two span::before {
+.about-us-text-section__paragraph-one span::before,
+.about-us-text-section__paragraph-two span::before {
     content: "\2022";
     margin-right: 8px;
 }
 
-.Group83-a {
+.about-us-text-section__ellipses-groups {
     width: 353px;
-    /*height: 266px;*/
     position: relative;
     left: -110px;
     bottom: 210px;
-    /*left: -6px;*/
-    /*bottom: 20px;*/
 }
-.Frame41-a {
+.about-us-text-section__first_ellipses-group {
     width: 179px;
     height: 150px;
     left: 174px;
@@ -94,7 +91,7 @@
     align-items: flex-start;
     gap: 24px;
 }
-.Frame41-2-a {
+.about-us-text-section__second_ellipses-group {
     width: 179px;
     height: 150px;
     left: 0;
@@ -105,7 +102,7 @@
     align-items: flex-start;
     gap: 24px;
 }
-.Frame41-3-a {
+.about-us-text-section__third_ellipses-group {
     width: 179px;
     height: 150px;
     left: 174px;
@@ -116,7 +113,7 @@
     align-items: flex-start;
     gap: 24px;
 }
-.Frame41-4-a {
+.about-us-text-section__fourse_ellipses-group {
     width: 179px;
     height: 150px;
     left: 0;

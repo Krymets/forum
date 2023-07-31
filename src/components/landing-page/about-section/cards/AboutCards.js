@@ -1,48 +1,48 @@
 import './AboutCards.css';
 
-const AppCards = () => {
+const AboutSectionCards = () => {
     return (
-      <div className="Frame47-a">
-        <div className="about-text-why">ЧОМУ ВАРТО</div>
-        <div className="Frame55-a">
-          <div className="Card1">
-            <div className="Frame50-a">
-              <div className="Frame54-a">
-                <img className="Intersect" src="/svg/intersect.svg" alt=""/>
-                <img className="Expert" src="/svg/expert.svg" alt=""/>
+      <div className="about-us-cards-section">
+        <div className="about-us-cards-section__header-text">ЧОМУ ВАРТО</div>
+        <div className="about-us-cards-section__cards">
+          <div className="about-us-cards-section__first-card">
+            <div className="about-us-cards-section__cards-content">
+              <div className="about-us-cards-section__cards-logo">
+                <img className="about-us-cards-section__cards-logo__intersect" src="/svg/intersect.svg" alt=""/>
+                <img className="about-us-cards-section__cards-logo__expert" src="/svg/expert.svg" alt=""/>
               </div>
-              <div className="Card1-text-header">ЕКСПЕРТНІСТЬ</div>
-              <div className="Card1-text">Спілкування з провідними експертами і практиками ексклюзивна.</div>
+              <div className="about-us-cards-section__cards-content__text-header">ЕКСПЕРТНІСТЬ</div>
+              <div className="about-us-cards-section__cards-content__text">Спілкування з провідними експертами і практиками ексклюзивна.</div>
             </div>
           </div>
-          <div className="Card2">
-            <div className="Frame50-a">
-              <div className="Frame54-a">
-                <img className="Intersect" src="/svg/intersect.svg" alt=""/>
-                <img className="Expert" src="/svg/info.svg" alt=""/>
+          <div className="about-us-cards-section__next-card">
+            <div className="about-us-cards-section__cards-content">
+              <div className="about-us-cards-section__cards-logo">
+                <img className="about-us-cards-section__cards-logo__intersect" src="/svg/intersect.svg" alt=""/>
+                <img className="about-us-cards-section__cards-logo__expert" src="/svg/info.svg" alt=""/>
               </div>
-              <div className="Card1-text-header">ПРАКТИЧНІСТЬ</div>
-              <div className="Card1-text">Практична інформація від представників галузей.</div>
+              <div className="about-us-cards-section__cards-content__text-header">ПРАКТИЧНІСТЬ</div>
+              <div className="about-us-cards-section__cards-content__text">Практична інформація від представників галузей.</div>
             </div>
           </div>
-          <div className="Card2">
-            <div className="Frame50-a">
-              <div className="Frame54-a">
-                <img className="Intersect" src="/svg/intersect.svg" alt=""/>
-                <img className="Expert" src="/svg/contacts.svg" alt=""/>
+          <div className="about-us-cards-section__next-card">
+            <div className="about-us-cards-section__cards-content">
+              <div className="about-us-cards-section__cards-logo">
+                <img className="about-us-cards-section__cards-logo__intersect" src="/svg/intersect.svg" alt=""/>
+                <img className="about-us-cards-section__cards-logo__expert" src="/svg/contacts.svg" alt=""/>
               </div>
-              <div className="Card1-text-header">НОВІ КОНТАКТИ</div>
-              <div className="Card1-text">Нові ділові контакти та переговори презентація Вашого бренду, компанії, рішень і послуг.</div>
+              <div className="about-us-cards-section__cards-content__text-header">НОВІ КОНТАКТИ</div>
+              <div className="about-us-cards-section__cards-content__text">Нові ділові контакти та переговори презентація Вашого бренду, компанії, рішень і послуг.</div>
             </div>
           </div>
-          <div className="Card2">
-            <div className="Frame50-a">
-              <div className="Frame54-a">
-                <img className="Intersect" src="/svg/intersect.svg" alt=""/>
-                <img className="Expert" src="/svg/exchange.svg" alt=""/>
+          <div className="about-us-cards-section__next-card">
+            <div className="about-us-cards-section__cards-content">
+              <div className="about-us-cards-section__cards-logo">
+                <img className="about-us-cards-section__cards-logo__intersect" src="/svg/intersect.svg" alt=""/>
+                <img className="about-us-cards-section__cards-logo__expert" src="/svg/exchange.svg" alt=""/>
               </div>
-              <div className="Card1-text-header">ОБМІН</div>
-              <div className="Card1-text">Обмін практичними напрацюваннями та досвідом.</div>
+              <div className="about-us-cards-section__cards-content__text-header">ОБМІН</div>
+              <div className="about-us-cards-section__cards-content__text">Обмін практичними напрацюваннями та досвідом.</div>
             </div>
           </div>
         </div>
@@ -50,4 +50,4 @@ const AppCards = () => {
     )
 }
 
-export default AppCards;
+export default AboutSectionCards;
