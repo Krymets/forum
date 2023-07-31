@@ -1,23 +1,24 @@
-import Partners from "./components/partners/partners";
-import "./app.css"
-import AppBanner from "./components/banner/banner";
-import AppMenu from "./components/menu/menu";
-import Companies from "./components/companies/companies";
-import About from "./components/about/about";
-import AppLoginBanner from "./components/login-banner/login-banner";
+import "./App.css"
+import MainMenu from "./components/landing-page/menu/Menu";
+import MainBanner from "./components/landing-page/banner/Banner";
+import MainPartners from "./components/landing-page/partners/Partners";
+import MainCompanies from "./components/landing-page/companies/Companies";
+import MainLoginBanner from "./components/landing-page/login-banner/LoginBanner";
+import MainAboutSection from "./components/landing-page/about-section/About";
+
 function App() {
   return (
-    // <div className="back">
+    // <div className="Back">
     <div className="App">
-      <div className="App-header">
-        <AppMenu/>
-        <AppBanner/>
-        <div className="App-body">
-            <Partners/>
-            <Companies/>
-            {/*<Partners/>*/}
-            <AppLoginBanner/>
-            <About/>
+      <div className="AppHeader">
+        <MainMenu/>
+        <MainBanner/>
+        <div className="AppBody">
+            <MainPartners/>
+            <MainCompanies/>
+            {/*<MainPartners/>*/}
+            <MainLoginBanner/>
+            <MainAboutSection/>
         </div>
       </div>
     </div>

@@ -1,8 +1,8 @@
-import './banner.css';
-import {GreenEllipses, WhiteEllipses} from "../menu/ellipses/ellipses";
+import './Banner.css';
+import {GreenEllipses, WhiteEllipses} from "../ellipses/Ellipses";
 
 
-const AppBanner = () => {
+const MainBanner = () => {
     return (
         <div className="Group81-b">
             <div className="Rectangle8"/>
@@ -84,4 +84,4 @@ const AppBanner = () => {
     )
 }
 
-export default AppBanner;
+export default MainBanner;

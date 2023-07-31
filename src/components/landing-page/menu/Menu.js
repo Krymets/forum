@@ -1,14 +1,14 @@
 import {Component} from "react";
-import './menu.css';
-import {MenuDivider} from "./divider/divider";
+import './Menu.css';
+import {MenuDivider} from "../divider/Divider";
 
 
 
-class AppMenu extends Component {
+class MainMenu extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            activeIndex: null
+            activeIndex: 0
         };
     }
 
@@ -19,13 +19,13 @@ class AppMenu extends Component {
     renderMenuItem = (text, index) => {
         const { activeIndex } = this.state;
         const isActive = activeIndex === index;
-        const classNames = `Frame19-m${isActive ? '-active' : ''}`;
-        const textNames = `menu-text${isActive ? '-active' : ''}`;
+        const classNames = `menu-item${isActive ? '__active' : ''}`;
+        const textNames = `menu-text${isActive ? '__active' : ''}`;
 
         return (
-            <div className={classNames} key={index} onClick={() => this.onMenuItemClick(index)}>
+            <a href={`#${text}`} className={classNames} key={index} onClick={() => this.onMenuItemClick(index)}>
                 <div className={textNames}>{text}</div>
-            </div>
+            </a>
         );
     };
 
@@ -42,16 +42,16 @@ class AppMenu extends Component {
 
         return (
             <div>
-                <div className="Frame18-m">
-                    <div className="Frame3-m">
-                        <div className="Frame24-m">{menuItems.map(this.renderMenuItem)}</div>
+                <div className="block-main">
+                    <div className="block-main__menu">
+                        <div className="block-main__menu__items">{menuItems.map(this.renderMenuItem)}</div>
                     </div>
                 </div>
-                <MenuDivider />
+                <MenuDivider/>
             </div>
         );
     }
 }
 
-export default AppMenu;
+export default MainMenu;
 

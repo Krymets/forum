@@ -1,8 +1,8 @@
-import './login-banner.css';
-import {WhiteTripleEllipses} from "../menu/ellipses/ellipses";
+import './LoginBanner.css';
+import {WhiteTripleEllipses} from "../ellipses/Ellipses";
 
 
-const AppLoginBanner = () => {
+const MainLoginBanner = () => {
     return (
         <div className="Group84-lb">
             <div className="Rectangle22-lb"/>
@@ -38,4 +38,4 @@ const AppLoginBanner = () => {
     )
 }
 
-export default AppLoginBanner;
+export default MainLoginBanner;

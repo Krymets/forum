@@ -1,8 +1,8 @@
-import './about.css';
-import AppCards from "./cards/cards";
-import AppTextAbout from "./about-text/about-text";
+import './About.css';
+import AppCards from "./cards/AboutCards";
+import AppTextAbout from "./about-text/AboutText";
 
-const AppAbout = () => {
+const MainAboutSection = () => {
     return (
         <div className="Frame57-a">
           <AppTextAbout/>
@@ -21,4 +21,4 @@ const AppAbout = () => {
     )
 }
 
-export default AppAbout;
+export default MainAboutSection;

@@ -1,6 +1,6 @@
-import './partners.css';
+import './Partners.css';
 
-const Partners = () => {
+const MainPartners = () => {
     return (
         <div className="Frame18-p">
           <div className="Frame15-p">
@@ -30,4 +30,4 @@ const Partners = () => {
     )
 }
 
-export default Partners;
+export default MainPartners;

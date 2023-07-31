@@ -1,4 +1,4 @@
-import './ellipses.css';
+import './Ellipses.css';
 
 export const GreenEllipses = () => {
   return (

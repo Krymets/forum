@@ -1,7 +1,7 @@
-import './companies.css';
-import {ProductCard} from "./product-card/product-card";
+import './Companies.css';
+import {ProductCard} from "./companies-product-cards/CompaniesProductCards";
 
-const Companies = () => {
+const MainCompanies = () => {
     const companyDataList = [
         {
             category: 'Виноробство',
@@ -76,4 +76,4 @@ const Companies = () => {
     );
 };
 
-export default Companies;
+export default MainCompanies;

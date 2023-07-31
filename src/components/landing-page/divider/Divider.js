@@ -1,4 +1,4 @@
-import './divider.css';
+import './Divider.css';
 
 export const MenuDivider = () => {
   return (

@@ -1,4 +1,4 @@
-import './cards.css';
+import './AboutCards.css';
 
 const AppCards = () => {
     return (

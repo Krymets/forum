@@ -1,5 +1,5 @@
-import './about-text.css';
-import {GreenEllipses} from "../../menu/ellipses/ellipses";
+import './AboutText.css';
+import {GreenEllipses} from "../../ellipses/Ellipses";
 
 const AppTextAbout = () => {
     return (

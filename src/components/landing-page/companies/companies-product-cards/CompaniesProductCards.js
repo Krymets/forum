@@ -1,4 +1,4 @@
-import './product-card.css';
+import './CompaniesProductCards.css';
 
 export const ProductCard = ({ data }) => {
     const { category, name, address, badges, logoSrc, photoSrc } = data;
