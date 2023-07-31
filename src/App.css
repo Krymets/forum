@@ -1,7 +1,7 @@
-.Back {
+.main-app-black-background {
   background: gray;
 }
-.App {
+.main-app {
   width: 1512px;
   border-radius: 8px;
   background: #FFF;
@@ -9,7 +9,7 @@
   margin-right: auto;
 }
 
-.AppBody {
+.main-app-body {
   display: flex;
   flex-direction: column;
   align-items: center;

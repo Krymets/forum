@@ -8,15 +8,14 @@ import MainAboutSection from "./components/landing-page/about-section/About";
 
 function App() {
   return (
-    // <div className="Back">
-    <div className="App">
-      <div className="AppHeader">
+    // <div className="main-app-black-background">
+    <div className="main-app">
+      <div className="main-app-header">
         <MainMenu/>
         <MainBanner/>
-        <div className="AppBody">
+        <div className="main-app-body">
             <MainPartners/>
             <MainCompanies/>
-            {/*<MainPartners/>*/}
             <MainLoginBanner/>
             <MainAboutSection/>
         </div>
