@@ -8,7 +8,6 @@ import MainAboutSection from "./components/landing-page/about-section/About";
 
 function App() {
   return (
-    // <div className="main-app-black-background">
     <div className="main-app">
       <div className="main-app-header">
         <MainMenu/>
@@ -21,7 +20,6 @@ function App() {
         </div>
       </div>
     </div>
-    // </div>
   );
 }
 
