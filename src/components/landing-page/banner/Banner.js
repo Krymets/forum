@@ -4,10 +4,10 @@ import {GreenEllipses, WhiteEllipses} from "../ellipses/Ellipses";
 
 const MainBanner = () => {
     return (
-        <div className="Group81-b">
-            <div className="Rectangle8"/>
-            <div className="Rectangle14">
-                <div className="Frame41-b">
+        <div className="main-banner-group">
+            <div className="main-banner-group__main-rectangle"/>
+            <div className="main-banner-group__white-rectangle">
+                <div className="main-banner-group__green-ellipses">
                     <GreenEllipses/>
                     <GreenEllipses/>
                     <GreenEllipses/>
@@ -16,23 +16,23 @@ const MainBanner = () => {
                     <GreenEllipses/>
                 </div>
             </div>
-            <div className="Rectangle9"/>
-            <div className="Rectangle10"/>
-            <div className="Rectangle11"/>
-            <div className="Rectangle12"/>
-            <div className="Rectangle13"/>
-            <div className="Frame40-b">
-                <div className="banner-text">Це унікальний майданчик <br/>для обміну інформацією і досвідом з тими, хто втілює свої ідеї в життя.</div>
-                <div className="Frame2-b">
-                    <div className="login-button">
-                        <div className="login-button-text">Увійти</div>
+            <div className="main-banner-group__frame-rectangle9"/>
+            <div className="main-banner-group__frame-rectangle10"/>
+            <div className="main-banner-group__frame-rectangle11"/>
+            <div className="main-banner-group__frame-rectangle12"/>
+            <div className="main-banner-group__frame-rectangle13"/>
+            <div className="main-banner-group__frame-description">
+                <div className="main-banner-group__banner-text">Це унікальний майданчик <br/>для обміну інформацією і досвідом з тими, хто втілює свої ідеї в життя.</div>
+                <div className="main-banner-group__frame-login">
+                    <div className="main-banner-group__login-button">
+                        <div className="main-banner-group__login-button-text">Увійти</div>
                     </div>
-                    <div className="register-button">
-                        <div className="register-button-text">Зареєстуватися</div>
+                    <div className="main-banner-group__register-button">
+                        <div className="main-banner-group__register-button-text">Зареєстуватися</div>
                     </div>
                 </div>
             </div>
-            <div className="Frame34-b">
+            <div className="main-banner-group__white-ellipses">
               <WhiteEllipses/>
               <WhiteEllipses/>
               <WhiteEllipses/>
@@ -40,43 +40,43 @@ const MainBanner = () => {
               <WhiteEllipses/>
               <WhiteEllipses/>
             </div>
-            <img className="banner-image1" src="/img/banner-img1.jpeg" alt=""/>
-            <img className="banner-image2" src="/img/banner-img2.jpeg" alt=""/>
-            <img className="banner-image3" src="/img/banner-img3.jpeg" alt=""/>
-          <div className="Frame37-b">
-            <div className="Frame5-b">
-              <div className="BxsWine-winemaking">
+            <img className="main-banner-group__banner-image1" src="/img/banner-img1.jpeg" alt=""/>
+            <img className="main-banner-group__banner-image2" src="/img/banner-img2.jpeg" alt=""/>
+            <img className="main-banner-group__banner-image3" src="/img/banner-img3.jpeg" alt=""/>
+          <div className="main-banner-wine">
+            <div className="main-banner-group__frame">
+              <div className="main-banner-wine__winemaking">
                 <div className="winemaking">
                     <img src="/svg/winemaking.svg" alt=""/>
                 </div>
               </div>
-              <div className="Frame36-b">
-                <div className="banner-item-text">Виноробство</div>
-                <div className="banner-item-counter">146+</div>
+              <div className="main-banner-group__content">
+                <div className="main-banner-group__banner-item-text">Виноробство</div>
+                <div className="main-banner-group__banner-item-counter">146+</div>
               </div>
             </div>
           </div>
-          <div className="Frame39-b">
-            <div className="Frame36-2-b">
-              <div className="banner-item-text">Сироварня</div>
-              <div className="banner-item-counter">56+</div>
+          <div className="main-banner-cheese">
+            <div className="banner-cheese">
+              <div className="main-banner-group__banner-item-text">Сироварня</div>
+              <div className="main-banner-group__banner-item-counter">56+</div>
             </div>
           </div>
-          <div className="BxsWine-cheese">
+          <div className="main-banner-cheese__cheese">
               <div className="cheese">
                 <img src="/svg/cheese.svg" alt=""/>
               </div>
           </div>
-          <div className="Frame38-b">
-            <div className="Frame5-b">
-              <div className="BxsWine-delivery">
+          <div className="main-banner-delivery">
+            <div className="main-banner-group__frame">
+              <div className="main-banner-delivery__delivery">
                 <div className="delivery">
                   <img src="/svg/delivery.svg" alt=""/>
                 </div>
               </div>
-              <div className="Frame36-b">
-                <div className="banner-item-text">Доставка</div>
-                <div className="banner-item-counter">14+</div>
+              <div className="main-banner-group__content">
+                <div className="main-banner-group__banner-item-text">Доставка</div>
+                <div className="main-banner-group__banner-item-counter">14+</div>
               </div>
             </div>
           </div>

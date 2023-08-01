@@ -56,17 +56,17 @@ const MainCompanies = () => {
     ];
 
     return (
-        <div className="Frame17-c">
-            <div className="Frame15-c">
-                <div className="companies-text">Нові учасники</div>
+        <div className="new-companies-main">
+            <div className="new-companies">
+                <div className="new-companies-main__header">Нові учасники</div>
             </div>
-            <div className="Frame17-2-c">
-                <div className="Frame26-c">
+            <div className="new-companies-block">
+                <div className="new-companies-block__row">
                     {companyDataList.map((data, index) => (
                         <ProductCard key={index} data={data} />
                     ))}
                 </div>
-                <div className="Frame26-c">
+                <div className="new-companies-block__row">
                     {companyDataListSecond.map((data, index) => (
                         <ProductCard key={index} data={data} />
                     ))}

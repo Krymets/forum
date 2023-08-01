@@ -1,10 +1,10 @@
-.Group81-b {
+.main-banner-group {
     width: 1512px;
     height: 500px;
     flex-shrink: 0;
     position: relative;
 }
-.Rectangle8 {
+.main-banner-group__main-rectangle {
     width: 1512px;
     height: 500px;
     flex-shrink: 0;
@@ -14,7 +14,7 @@
     position: absolute;
 
 }
-.Rectangle14 {
+.main-banner-group__white-rectangle {
     width: 786px;
     height: 500px;
     flex-shrink: 0;
@@ -24,7 +24,7 @@
     position: absolute;
 }
 
-.Rectangle9 {
+.main-banner-group__frame-rectangle9 {
     width: 199px;
     height: 258px;
     transform: rotate(-9.235deg);
@@ -36,7 +36,7 @@
     position: absolute;
 }
 
-.Rectangle10 {
+.main-banner-group__frame-rectangle10 {
     width: 199px;
     height: 258px;
     transform: rotate(-2.266deg);
@@ -49,7 +49,7 @@
     position: absolute;
 }
 
-.Rectangle11 {
+.main-banner-group__frame-rectangle11 {
     width: 220px;
     height: 179px;
     transform: rotate(-2.266deg);
@@ -61,7 +61,7 @@
     top: 78.87px;
     position: absolute;
 }
-.Rectangle12 {
+.main-banner-group__frame-rectangle12 {
     width: 210px;
     height: 171px;
     transform: rotate(-2.266deg);
@@ -74,7 +74,7 @@
     position: absolute;
 }
 
-.Rectangle13 {
+.main-banner-group__frame-rectangle13 {
     width: 209.828px;
     height: 170.787px;
     transform: rotate(-2.266deg);
@@ -86,7 +86,7 @@
     top: 293.30px;
     position: absolute;
 }
-.Frame40-b {
+.main-banner-group__frame-description {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -97,7 +97,7 @@
     top: 112px;
     position: absolute;
 }
-.banner-text {
+.main-banner-group__banner-text {
     width: 584px;
     color: #000;
     font-family: Inter, serif;
@@ -108,13 +108,13 @@
     letter-spacing: 0.4px;
     position: absolute;
 }
-.Frame2-b {
+.main-banner-group__frame-login {
     display: flex;
     align-items: flex-start;
     gap: 12px;
     position: absolute;
 }
-.login-button {
+.main-banner-group__login-button {
     display: flex;
     padding: 5px 15px;
     justify-content: center;
@@ -128,7 +128,7 @@
     position: relative;
 }
 
-.login-button-text {
+.main-banner-group__login-button-text {
     color: #FFF;
     text-align: center;
     font-feature-settings: 'calt' off;
@@ -140,7 +140,7 @@
     letter-spacing: -0.16px;
 }
 
-.register-button {
+.main-banner-group__register-button {
     display: flex;
     padding: 5px 15px;
     justify-content: center;
@@ -154,7 +154,7 @@
     position: relative;
 }
 
-.register-button-text {
+.main-banner-group__register-button-text {
     color: #1F9A7C;
     text-align: center;
     font-feature-settings: 'calt' off;
@@ -165,7 +165,7 @@
     line-height: 20px; /* 125% */
     letter-spacing: -0.16px;
 }
-.Frame34-b {
+.main-banner-group__white-ellipses {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -174,7 +174,7 @@
     top: 75px;
     position: absolute;
 }
-.banner-image1 {
+.main-banner-group__banner-image1 {
     width: 199px;
     height: 258px;
     flex-shrink: 0;
@@ -185,7 +185,7 @@
     position: absolute;
     object-fit: cover;
 }
-.banner-image2 {
+.main-banner-group__banner-image2 {
     width: 220px;
     height: 148px;
     flex-shrink: 0;
@@ -196,7 +196,7 @@
     position: absolute;
     object-fit: cover;
 }
-.banner-image3 {
+.main-banner-group__banner-image3 {
     width: 212px;
     height: 182px;
     flex-shrink: 0;
@@ -208,7 +208,7 @@
     object-fit: cover;
 }
 
-.Frame41-b {
+.main-banner-group__green-ellipses {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -217,7 +217,7 @@
     bottom: 3px;
     position: absolute;
 }
-.Frame37-b {
+.main-banner-wine {
     width: 123px;
     height: 36px;
     display: inline-flex;
@@ -231,13 +231,13 @@
     position: absolute;
 }
 
-.Frame5-b {
+.main-banner-group__frame {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
 }
-.BxsWine-winemaking {
+.main-banner-wine__winemaking {
     display: flex;
     padding: 9px 10.5px;
     align-items: flex-start;
@@ -250,12 +250,12 @@
     height: 18px;
     fill: #FFF;
 }
-.Frame36 {
+.main-banner-group__content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.banner-item-text {
+.main-banner-group__banner-item-text {
     color: #292E32;
     font-feature-settings: 'calt' off;
     font-family: Inter, serif;
@@ -265,7 +265,7 @@
     line-height: 16px; /* 160% */
     text-transform: uppercase;
 }
-.banner-item-counter {
+.main-banner-group__banner-item-counter {
     color: #BE4F28;
     font-feature-settings: 'calt' off;
     font-family: Inter, serif;
@@ -275,7 +275,7 @@
     line-height: 16px; /* 160% */
     text-transform: uppercase;
 }
-.Frame39-b {
+.main-banner-cheese {
     display: flex;
     width: 180px;
     padding: 6px 16px 6px 20px;
@@ -288,12 +288,12 @@
     top: 427px;
     position: absolute;
 }
-.Frame36-2-b {
+.banner-cheese {
     display: flex;
     align-items: flex-start;
     gap: 8px;
 }
-.BxsWine-cheese {
+.main-banner-cheese__cheese {
     display: inline-flex;
     padding: 8px;
     align-items: flex-start;
@@ -311,7 +311,7 @@
     height: 20px;
     position: relative;
 }
-.Frame38-b {
+.main-banner-delivery {
     display: inline-flex;
     padding: 6px 16px;
     align-items: center;
@@ -324,7 +324,7 @@
     top: 237px;
     position: absolute;
 }
-.BxsWine-delivery {
+.main-banner-delivery__delivery {
     display: flex;
     padding: 8px;
     align-items: flex-start;

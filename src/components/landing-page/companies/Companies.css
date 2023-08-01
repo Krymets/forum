@@ -1,4 +1,4 @@
-.Frame17-c {
+.new-companies-main {
     width: 1304px;
     display: flex;
     padding: 80px 104px;
@@ -7,12 +7,12 @@
     gap: 24px;
     background: #F1FFF7;
 }
-.Frame15-c {
+.new-companies {
     display: flex;
     align-items: center;
     gap: 800px;
 }
-.companies-text {
+.new-companies-main__header {
     width: 444px;
     color: #292E32;
     text-transform: uppercase;
@@ -22,7 +22,7 @@
     font-weight: 700;
     line-height: 120%;
 }
-.Frame17-2-c {
+.new-companies-block {
     display: flex;
     width: 1304px;
     padding: 16px 8px;
@@ -30,7 +30,7 @@
     align-items: center;
     gap: 36px;
 }
-.Frame26-c {
+.new-companies-block__row {
     display: flex;
     align-items: flex-start;
     gap: 60px;

@@ -4,32 +4,31 @@ export const ProductCard = ({ data }) => {
     const { category, name, address, badges, logoSrc, photoSrc } = data;
 
     return (
-        <div className="ProducentCard">
-            <div className="Frame13-product-card">
-                <div className="CardPhoto">
-                    <div className="Rectangle3"/>
-                    <img className="image-product-card" src={photoSrc} alt=""/>
+        <div className="product-card">
+            <div className="product-card__block">
+                <div className="product-card__image-frame">
+                    <img className="product-card__image" src={photoSrc} alt=""/>
                 </div>
-                <div className="Frame10-product-card">
-                    <div className="Frame11-product-card">
-                        <div className="product-card-category-text">{category}</div>
-                        <div className="product-card-name-text">{name}<br /></div>
+                <div className="product-card__text-block">
+                    <div className="product-card__text-block__header">
+                        <div className="product-card__category-text">{category}</div>
+                        <div className="product-card__name-text">{name}<br /></div>
                     </div>
-                    <div className="product-card-address-text">{address}</div>
-                    <div className="Frame12-product-card">
+                    <div className="product-card__address-text">{address}</div>
+                    <div className="product-card__badges-block">
                         {badges.map((badge, index) => (
-                            <div className="BadgeCount" key={index}>
-                                <div className="Badge">
-                                    <div className="product-card-badge-text">{badge}</div>
+                            <div className="product-card__badges" key={index}>
+                                <div className="product-card__badge">
+                                    <div className="product-card__badge-text">{badge}</div>
                                 </div>
                             </div>
                         ))}
                     </div>
                 </div>
             </div>
-            <div className="CardLogo">
-                <div className="CardLogo-Ellipse">
-                <img className="CardLogo-image" src={logoSrc} alt=""/>
+            <div className="product-card__logo">
+                <div className="product-card__logo-ellipse">
+                <img className="product-card__logo-image" src={logoSrc} alt=""/>
                 </div>
             </div>
         </div>
