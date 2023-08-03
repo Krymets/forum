@@ -1,5 +1,3 @@
-# Landing page for Forum project [Forum](https://github.com/ita-social-projects/Forum)
-
-In the project directory, you can run:
-
+### [Landing page](https://krymets.github.io/forum) for project [Forum](https://github.com/ita-social-projects/Forum)
+### `npm install`
 ### `npm start`
