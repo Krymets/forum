@@ -13,8 +13,8 @@ function App() {
         <MainMenu/>
         <MainBanner/>
         <div className="main-app-body">
-            <MainPartners/>
             <MainCompanies/>
+            <MainPartners/>
             <MainLoginBanner/>
             <MainAboutSection/>
         </div>
