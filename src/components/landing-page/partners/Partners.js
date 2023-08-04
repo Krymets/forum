@@ -8,12 +8,12 @@ const MainPartners = () => {
               <div className="partners-section__navi-icons">
                   <div className="partners-section__navi-icon">
                       <div className="partners-section__icon">
-                          <img src="/svg/icon-left.svg" alt=""/>
+                          <img src={`${process.env.PUBLIC_URL}/svg/icon-left.svg`} alt=""/>
                       </div>
                   </div>
                   <div className="partners-section__navi-icon">
                       <div className="partners-section__icon">
-                          <img src="/svg/icon-right.svg" alt=""/>
+                          <img src={`${process.env.PUBLIC_URL}/svg/icon-right.svg`} alt=""/>
                       </div>
                   </div>
               </div>
